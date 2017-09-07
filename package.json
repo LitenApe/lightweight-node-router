@@ -1,0 +1,27 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "Assignment one for inf5750",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Son Thanh Vo",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.5.0",
+    "request": "^2.81.0",
+    "xml2js": "^0.4.19"
+  },
+  "eslintIgnore": [
+    "test.js"
+  ]
+}
